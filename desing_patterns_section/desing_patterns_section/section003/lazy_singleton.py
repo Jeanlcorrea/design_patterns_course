@@ -16,6 +16,6 @@ class Singleton:
 
 s1 = Singleton()
 
-print(f'Objeto criado: {Singleton.get_instance()}')
+print(f'Objeto criado agora: {Singleton.get_instance()}')
 
 s2 = Singleton()
