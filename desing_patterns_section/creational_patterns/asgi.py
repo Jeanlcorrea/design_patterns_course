@@ -1,5 +1,5 @@
 """
-ASGI config for desing_patterns_section project.
+ASGI config for creational_patterns project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'desing_patterns_section.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'creational_patterns.settings')
 
 application = get_asgi_application()
