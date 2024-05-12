@@ -1,5 +1,5 @@
 """
-WSGI config for desing_patterns_section project.
+WSGI config for creational_patterns project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'desing_patterns_section.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'creational_patterns.settings')
 
 application = get_wsgi_application()
